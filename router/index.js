@@ -5,9 +5,12 @@ const router = express.Router();
 const routes = [
   { path: '/', template: 'index', title: 'Home' },
   { path: '/about', template: 'about', title: 'About' },
-  { path: '/project', template: 'project', title: 'project' },
+  { path: '/project', template: 'project', title: 'Project' },
   { path: '/services', template: 'services', title: 'Services' },
-  { path: '/thoughts', template: 'thoughts', title: 'Thoughts' }
+  { path: '/thoughts', template: 'thoughts', title: 'Thoughts' },
+  { path: '/contact', template: 'contact', title: 'Contact us' },
+  { path: '/terms', template: 'terms', title: 'Terms & Conditions' },
+  { path: '/privacy', template: 'privacy', title: 'Privacy Policy' },
 ];
 
 // Generate routes dynamically
